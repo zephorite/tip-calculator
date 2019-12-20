@@ -13,7 +13,7 @@ The following **required** functionality is complete:
 * [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [ ] Settings page to change the default tip percentage.
+ [ ] Settings page to change the default tip percentage.
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
@@ -33,7 +33,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Committing repository via github was causing issues, had to recreate project and deselecting the option to create a repository on my local device, then committing to github for the project repository to be pushed.
+
+Issues with using decimal keyboard on the simulator were solved by deactivating the hardware keyboard input in Xcode's settings, (seems to be a common problem that Xcode needs to fix).
 
 ## License
 
